@@ -7,7 +7,7 @@ app = Flask('') #creating a flask app
 
 @app.route('/')
 def home():
-  return "Hello . I am alive ehehe" #returns this to anyone who visits the server
+  return "Hello . I am alive ehehe" #returns this to anyone who visits the server . The URL is created by repl.it
 
 def run(): #runs the web server
   app.run(host="0.0.0.0",port = 8080)
