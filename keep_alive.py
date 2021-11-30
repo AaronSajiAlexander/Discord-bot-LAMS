@@ -1,4 +1,4 @@
-#creating a web server for our bot to continuously ping the web server using uptime Robot 
+#creating a web server for our bot and continuously ping this web server using uptime Robot 
 from flask import Flask
 from threading import Thread #the server will run on a separate thread from our bot
 
